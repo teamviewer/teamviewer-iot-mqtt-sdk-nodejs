@@ -1,0 +1,37 @@
+{
+  "name": "@teamviewer/teamviewer-iot-mqtt-sdk",
+  "version": "1.0.5",
+  "private": false,
+  "dependencies": {
+    "log4js": "^6.1.2",
+    "mqtt": "^2.18.8",
+    "pem": "^1.13.1"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "description": "TeamViewer IoT MQTT API NodeJS SDK",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamviewer/teamviewer-iot-mqtt-sdk-nodejs"
+  },
+  "keywords": [
+    "TeamViewer",
+    "IoT",
+    "SDK",
+    "MQTT"
+  ],
+  "author": "TeamViewer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamviewer/teamviewer-iot-mqtt-sdk-nodejs/issues"
+  },
+  "homepage": "https://www.teamviewer.com/en/iot/",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
